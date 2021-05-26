@@ -32,4 +32,63 @@ Arduino and other microcontroller to control their sanitizer which make it expen
 company to setup as just after the lockdown it is impossible for the small investor to setup these in there firm for there
 worker.
 
-<p align = 'center'><img src = '/image/2.png'> </p>
+<p align = 'center'><img src = /images/2.PNG > </p>
+
+
+## MY INNOVATIVE SOLUTION : 
+
+### THE DESIGN : 
+
+I've seen several Arduino automated liquid dispensers circulating the web. I Find using Arduinos a bit overkill for this
+specific project. Arduinos are far too expensive. I Figured using a simple transistor or MOSFET would do the job, which
+would also drastically reduce the costs. Obviously, the absence of a micro controller removes control of over spilling, but
+then, I did find out that using a smaller nozzle would physically limit the flow of liquid. There are several two transistor
+RC circuits that would solve the over spilling problem but the single transistor design works well, given that you choose
+the proper nozzle size.
+
+## MAIN COMPONENTS: 
+
+• Proximity sensor
+
+It is use to detect the object which is to be sanitize and this is connected to the water pump which pump the
+solution when the object is detected.
+
+• DC water pump
+
+This is use to basically pump the solution form the jar.
+
+• TIP32C PNP Transistor
+
+This is use to control the basic circuitry of the project so that it doesn’t get damage.
+
+• 1N4007 Diode
+
+This is use to control the basic circuitry of the project so that it doesn’t get damage.
+
+• Aquarium Tubing
+
+This work as the connecting tube through which the water flow from the pump.
+
+• Old Glass Jar
+
+This is use to store the solution.
+
+• Old Ballpen
+
+To provide the pointed through to the solution when it is pump out.
+
+• Sanitizer/rubbing alcohol
+
+This is actually the sanitizing material through which the sanitization occurs.
+
+## WORKING :
+
+<p align= 'center'><img src = /images/3.PNG></p>
+
+As when the hand is detected by the proximity sensor the pump get active and the solution is pumped out by the glass
+jar to the hand of the user. The complete project can be given power through the normal mobile phone charger and for
+being portable you van give it using the power bank the price varies for both.
+
+# Video link : 
+
+"https://www.youtube.com/embed/ZZ3RDrYeXZs"
