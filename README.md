@@ -46,6 +46,8 @@ then, I did find out that using a smaller nozzle would physically limit the flow
 RC circuits that would solve the over spilling problem but the single transistor design works well, given that you choose
 the proper nozzle size.
 
+<p align = 'center'><img src = /images/1.PNG > </p>
+
 ## MAIN COMPONENTS: 
 
 • Proximity sensor
